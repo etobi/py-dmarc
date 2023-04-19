@@ -2,6 +2,7 @@ FROM python:3.8-slim
 
 # Set working directory
 WORKDIR /app
+COPY checkdmarc.py .
 COPY requirements.txt .
 
 # Install any necessary dependencies

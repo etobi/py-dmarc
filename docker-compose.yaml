@@ -4,4 +4,4 @@ services:
   python-dmarc:
     build: .
     volumes:
-      - .:/app
+      - ./config.txt:/app/config.txt
