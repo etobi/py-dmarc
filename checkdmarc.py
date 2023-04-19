@@ -91,11 +91,6 @@ imap.select('INBOX')
 # Set search criteria
 criteria = '(ALL)'
 
-send_email(
-    "Test",
-    f"Foobar"
-)
-
 # Search for messages that match the criteria
 _, uids = imap.search(None, criteria)
 
